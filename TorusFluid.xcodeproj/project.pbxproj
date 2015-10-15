@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E773C61F1B9A8CA700D0F14E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C61E1B9A8CA700D0F14E /* main.cpp */; };
+		E73043351BBF8E69004A49CB /* Torus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E73043331BBF8E69004A49CB /* Torus.cpp */; settings = {ASSET_TAGS = (); }; };
+		E773C6261B9A8CC700D0F14E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E773C6251B9A8CC700D0F14E /* OpenGL.framework */; };
+		E773C6281B9A8CD300D0F14E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E773C6271B9A8CD300D0F14E /* SDL2.framework */; };
+		E773C62F1B9A8D2900D0F14E /* OnCleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C6291B9A8D2900D0F14E /* OnCleanup.cpp */; };
+		E773C6301B9A8D2900D0F14E /* OnEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C62A1B9A8D2900D0F14E /* OnEvent.cpp */; };
+		E773C6311B9A8D2900D0F14E /* OnInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C62B1B9A8D2900D0F14E /* OnInit.cpp */; };
+		E773C6321B9A8D2900D0F14E /* OnLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C62C1B9A8D2900D0F14E /* OnLoop.cpp */; };
+		E773C6331B9A8D2900D0F14E /* OnRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C62D1B9A8D2900D0F14E /* OnRender.cpp */; };
+		E773C6351B9A8D3600D0F14E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E773C6341B9A8D3600D0F14E /* main.cpp */; };
+		E7BC68D21B9E5E5B009668DF /* Fluid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BC68D01B9E5E5B009668DF /* Fluid.cpp */; };
+		E7BC68D71B9E5E88009668DF /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BC68D31B9E5E88009668DF /* Color.cpp */; };
+		E7BC68D81B9E5E88009668DF /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BC68D51B9E5E88009668DF /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +34,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E73043331BBF8E69004A49CB /* Torus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Torus.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E73043341BBF8E69004A49CB /* Torus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Torus.h; sourceTree = "<group>"; };
 		E773C61B1B9A8CA700D0F14E /* TorusFluid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TorusFluid; sourceTree = BUILT_PRODUCTS_DIR; };
-		E773C61E1B9A8CA700D0F14E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E773C6251B9A8CC700D0F14E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E773C6271B9A8CD300D0F14E /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		E773C6291B9A8D2900D0F14E /* OnCleanup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnCleanup.cpp; sourceTree = "<group>"; };
+		E773C62A1B9A8D2900D0F14E /* OnEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnEvent.cpp; sourceTree = "<group>"; };
+		E773C62B1B9A8D2900D0F14E /* OnInit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = OnInit.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E773C62C1B9A8D2900D0F14E /* OnLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnLoop.cpp; sourceTree = "<group>"; };
+		E773C62D1B9A8D2900D0F14E /* OnRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnRender.cpp; sourceTree = "<group>"; };
+		E773C62E1B9A8D2900D0F14E /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = World.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E773C6341B9A8D3600D0F14E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E7BC68D01B9E5E5B009668DF /* Fluid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fluid.cpp; sourceTree = "<group>"; };
+		E7BC68D11B9E5E5B009668DF /* Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluid.h; sourceTree = "<group>"; };
+		E7BC68D31B9E5E88009668DF /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		E7BC68D41B9E5E88009668DF /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		E7BC68D51B9E5E88009668DF /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		E7BC68D61B9E5E88009668DF /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E773C6281B9A8CD300D0F14E /* SDL2.framework in Frameworks */,
+				E773C6261B9A8CC700D0F14E /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +70,8 @@
 		E773C6121B9A8CA700D0F14E = {
 			isa = PBXGroup;
 			children = (
+				E773C6271B9A8CD300D0F14E /* SDL2.framework */,
+				E773C6251B9A8CC700D0F14E /* OpenGL.framework */,
 				E773C61D1B9A8CA700D0F14E /* TorusFluid */,
 				E773C61C1B9A8CA700D0F14E /* Products */,
 			);
@@ -57,7 +88,21 @@
 		E773C61D1B9A8CA700D0F14E /* TorusFluid */ = {
 			isa = PBXGroup;
 			children = (
-				E773C61E1B9A8CA700D0F14E /* main.cpp */,
+				E73043331BBF8E69004A49CB /* Torus.cpp */,
+				E73043341BBF8E69004A49CB /* Torus.h */,
+				E773C6341B9A8D3600D0F14E /* main.cpp */,
+				E773C6291B9A8D2900D0F14E /* OnCleanup.cpp */,
+				E773C62A1B9A8D2900D0F14E /* OnEvent.cpp */,
+				E7BC68D01B9E5E5B009668DF /* Fluid.cpp */,
+				E7BC68D11B9E5E5B009668DF /* Fluid.h */,
+				E7BC68D31B9E5E88009668DF /* Color.cpp */,
+				E7BC68D41B9E5E88009668DF /* Color.h */,
+				E7BC68D51B9E5E88009668DF /* Vector.cpp */,
+				E7BC68D61B9E5E88009668DF /* Vector.h */,
+				E773C62B1B9A8D2900D0F14E /* OnInit.cpp */,
+				E773C62C1B9A8D2900D0F14E /* OnLoop.cpp */,
+				E773C62D1B9A8D2900D0F14E /* OnRender.cpp */,
+				E773C62E1B9A8D2900D0F14E /* World.h */,
 			);
 			path = TorusFluid;
 			sourceTree = "<group>";
@@ -118,7 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E773C61F1B9A8CA700D0F14E /* main.cpp in Sources */,
+				E773C62F1B9A8D2900D0F14E /* OnCleanup.cpp in Sources */,
+				E7BC68D71B9E5E88009668DF /* Color.cpp in Sources */,
+				E773C6301B9A8D2900D0F14E /* OnEvent.cpp in Sources */,
+				E73043351BBF8E69004A49CB /* Torus.cpp in Sources */,
+				E773C6351B9A8D3600D0F14E /* main.cpp in Sources */,
+				E773C6331B9A8D2900D0F14E /* OnRender.cpp in Sources */,
+				E7BC68D81B9E5E88009668DF /* Vector.cpp in Sources */,
+				E7BC68D21B9E5E5B009668DF /* Fluid.cpp in Sources */,
+				E773C6321B9A8D2900D0F14E /* OnLoop.cpp in Sources */,
+				E773C6311B9A8D2900D0F14E /* OnInit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +259,10 @@
 		E773C6231B9A8CA700D0F14E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +270,10 @@
 		E773C6241B9A8CA700D0F14E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +297,7 @@
 				E773C6241B9A8CA700D0F14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
